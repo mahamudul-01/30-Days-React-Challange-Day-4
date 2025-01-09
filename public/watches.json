@@ -108,7 +108,7 @@
       "features": ["ECG", "Fall Detection"]
     },
     {
-      "id": 10,
+      "id": 10, 
       "brand": "Garmin",
       "model": "Forerunner 955",
       "price": 599,
@@ -118,6 +118,6 @@
       "displayType": "Digital",
       "strapType": "Silicone",
       "features": ["GPS", "Heart Rate Monitor", "Pace Pro"]
-    }
+    } 
   ]
   

@@ -1,11 +1,12 @@
 
 import "./App.css";
-import Watches from "./componets/Watches/Watches";
+import Bottles from "./componets/Bottles/Bottles";
 
 function App() {
   
   return <div>
-    <Watches></Watches>
+    <h1>Load Bottle Data</h1>
+    <Bottles></Bottles>
   </div>;
 }
 
