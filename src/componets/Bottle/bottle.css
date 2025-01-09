@@ -1,0 +1,20 @@
+.bottle-card{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.bottle-container{
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: 300px;
+
+}
+.bottle-card img{
+    width: 100%;
+}
+.bottle-card div{
+    width: 45%;
+}

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Bottle from "../Bottle/Bottle";
+import './bottles.css'
 
 const Bottles = () => {
     const [bottles,setBottles]=useState([])
@@ -12,9 +13,9 @@ const Bottles = () => {
         .then(data=> setBottles(data))
     },[])
     return (
-        <div>
+        <div className="bottles-container">
             {
-                bottles.map(bottle=> <Bottle></Bottle>)
+                bottles.map(bottle=> <Bottle bottle={bottle} key={bottle?.id}></Bottle>)
             }
         </div>
     );
